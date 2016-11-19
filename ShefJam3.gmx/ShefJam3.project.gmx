@@ -11,9 +11,11 @@
     <sprite>sprites\spr_darwin</sprite>
     <sprite>sprites\spr_rabbit</sprite>
     <sprite>sprites\spr_snake</sprite>
+    <sprite>sprites\spr_palmtree</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_blue</background>
+    <background>background\bg_island1</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -21,6 +23,8 @@
     <object>objects\obj_bullet</object>
     <object>objects\obj_rabbit</object>
     <object>objects\obj_snake</object>
+    <object>objects\obj_score</object>
+    <object>objects\obj_palmtree</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_island1</room>
