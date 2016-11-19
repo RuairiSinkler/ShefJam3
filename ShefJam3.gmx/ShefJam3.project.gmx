@@ -25,6 +25,7 @@
     <object>objects\obj_snake</object>
     <object>objects\obj_score</object>
     <object>objects\obj_palmtree</object>
+    <object>objects\obj_level</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_island1</room>
