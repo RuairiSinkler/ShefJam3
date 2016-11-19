@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>depth = -1000;
-global.level = 1;
+global.ammo = 8;
 </string>
           </argument>
         </arguments>
@@ -49,10 +49,10 @@ global.level = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Draw Level
+            <string>///Draw ammo
 
 draw_set_color(c_red);
-draw_text_transformed(view_xview[0] + 600, view_yview[0] + 32, "Level: " + string(global.level), 2, 2, 0);
+draw_text_transformed(view_xview[0] + 300, view_yview[0] + 32, "Ammo: " + string(global.ammo), 2, 2, 0);
 </string>
           </argument>
         </arguments>

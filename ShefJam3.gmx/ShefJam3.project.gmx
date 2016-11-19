@@ -12,6 +12,8 @@
     <sprite>sprites\spr_rabbit</sprite>
     <sprite>sprites\spr_snake</sprite>
     <sprite>sprites\spr_palmtree</sprite>
+    <sprite>sprites\spr_seatile</sprite>
+    <sprite>sprites\spr_bulletcounter</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_blue</background>
@@ -26,6 +28,8 @@
     <object>objects\obj_score</object>
     <object>objects\obj_palmtree</object>
     <object>objects\obj_level</object>
+    <object>objects\obj_ammo</object>
+    <object>objects\obj_seatile</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_island1</room>

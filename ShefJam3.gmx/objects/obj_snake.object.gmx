@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.1;
+            <string>inSea = false;
+image_speed = 0.1;
 speed = 3;
 </string>
           </argument>
