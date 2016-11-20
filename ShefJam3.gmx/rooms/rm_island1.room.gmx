@@ -52,10 +52,10 @@
   </views>
   <instances>
     <instance objName="obj_darwin" x="1056" y="896" name="inst_0A3B8D7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_palmtree" x="1376" y="672" name="inst_17239F17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_palmtree" x="544" y="1504" name="inst_CE670D89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_palmtree" x="1472" y="1248" name="inst_A7CC6F16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_palmtree" x="672" y="512" name="inst_7BD409FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_palmtree" x="1408" y="672" name="inst_17239F17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_palmtree" x="512" y="1472" name="inst_CE670D89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_palmtree" x="1440" y="1248" name="inst_A7CC6F16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_palmtree" x="640" y="512" name="inst_7BD409FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_palmtree" x="864" y="1056" name="inst_60E19779" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seatile" x="128" y="320" name="inst_8E91F6E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seatile" x="96" y="352" name="inst_6427D34B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

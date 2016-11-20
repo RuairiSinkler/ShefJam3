@@ -18,12 +18,15 @@
     <sprite>sprites\spr_seatile</sprite>
     <sprite>sprites\spr_bulletcounter</sprite>
     <sprite>sprites\spr_menu</sprite>
+    <sprite>sprites\spr_seal</sprite>
+    <sprite>sprites\spr_lizard</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_blue</background>
     <background>background\bg_island1</background>
     <background>background\bg_startmenu</background>
     <background>background\bg_howtoplay</background>
+    <background>background\bg_win</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -47,12 +50,15 @@
     <object>objects\obj_solidobject</object>
     <object>objects\obj_level</object>
     <object>objects\obj_menu</object>
-    <object>objects\obj_back</object>
+    <object>objects\obj_tomenu</object>
+    <object>objects\obj_seal</object>
+    <object>objects\obj_lizard</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startmenu</room>
     <room>rooms\rm_howtoplay</room>
     <room>rooms\rm_island1</room>
+    <room>rooms\rm_win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
