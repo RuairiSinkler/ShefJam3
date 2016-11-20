@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>depth = -1000;
-global.points = 0;
 </string>
           </argument>
         </arguments>

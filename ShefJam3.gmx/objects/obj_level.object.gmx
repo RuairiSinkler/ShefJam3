@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>depth = -1000;
-global.level = 1;
 </string>
           </argument>
         </arguments>
@@ -49,7 +48,7 @@ global.level = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.level == 2) {
+            <string>if (global.level == 3) {
     room_goto(rm_win);
 }
 </string>

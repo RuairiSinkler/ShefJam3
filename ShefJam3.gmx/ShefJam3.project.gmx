@@ -14,6 +14,7 @@
     <sound>sound\snd_lizarddeath</sound>
     <sound>sound\snd_victorysound</sound>
     <sound>sound\snd_music</sound>
+    <sound>sound\snd_tortoisedeath</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_square</sprite>
@@ -27,6 +28,7 @@
     <sprite>sprites\spr_menu</sprite>
     <sprite>sprites\spr_seal</sprite>
     <sprite>sprites\spr_lizard</sprite>
+    <sprite>sprites\spr_tortoise</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_blue</background>
@@ -63,6 +65,8 @@
     <object>objects\obj_lizard</object>
     <object>objects\obj_win</object>
     <object>objects\obj_music</object>
+    <object>objects\obj_initialise</object>
+    <object>objects\obj_tortoise</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startmenu</room>
