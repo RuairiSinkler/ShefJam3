@@ -7,6 +7,13 @@
   <sounds name="sound">
     <sound>sound\snd_gunshot</sound>
     <sound>sound\snd_reload</sound>
+    <sound>sound\snd_darwindeath</sound>
+    <sound>sound\snd_snakedeath</sound>
+    <sound>sound\snd_sealdeath</sound>
+    <sound>sound\snd_rabbitdeath</sound>
+    <sound>sound\snd_lizarddeath</sound>
+    <sound>sound\snd_victorysound</sound>
+    <sound>sound\snd_music</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_square</sprite>
@@ -27,6 +34,7 @@
     <background>background\bg_startmenu</background>
     <background>background\bg_howtoplay</background>
     <background>background\bg_win</background>
+    <background>background\bg_island2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -53,12 +61,15 @@
     <object>objects\obj_tomenu</object>
     <object>objects\obj_seal</object>
     <object>objects\obj_lizard</object>
+    <object>objects\obj_win</object>
+    <object>objects\obj_music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startmenu</room>
     <room>rooms\rm_howtoplay</room>
     <room>rooms\rm_island1</room>
     <room>rooms\rm_win</room>
+    <room>rooms\rm_island2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

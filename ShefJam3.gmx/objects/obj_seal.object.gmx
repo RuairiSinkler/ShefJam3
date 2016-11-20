@@ -84,7 +84,8 @@ hits = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hits += 1
+            <string>audio_play_sound(snd_sealdeath, 0, 0);
+hits += 1
 if (hits == 3)  {
     instance_destroy();
 }
