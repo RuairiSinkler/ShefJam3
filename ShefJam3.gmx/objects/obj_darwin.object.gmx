@@ -215,6 +215,7 @@ y = clamp(y, 0, room_height);
     bullet.direction = image_angle;
     bullet.image_angle = image_angle;
     bullet.speed = 15;
+    audio_play_sound(snd_gunshot, 0, 0);
 }
 </string>
           </argument>
@@ -243,6 +244,27 @@ y = clamp(y, 0, room_height);
           <argument>
             <kind>4</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_play_sound(snd_reload, 0, 0);
+</string>
           </argument>
         </arguments>
       </action>

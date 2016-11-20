@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_gunshot</sound>
+    <sound>sound\snd_reload</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_square</sprite>
     <sprite>sprites\spr_bullet</sprite>
@@ -20,6 +23,9 @@
     <background>background\bg_island1</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_HUD</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_darwin</object>
     <object>objects\obj_bullet</object>

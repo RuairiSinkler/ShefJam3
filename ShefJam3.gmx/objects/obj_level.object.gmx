@@ -51,8 +51,9 @@ global.level = 1;
             <kind>1</kind>
             <string>///Draw Level
 
+draw_set_font(fnt_HUD);
 draw_set_color(c_red);
-draw_text_transformed(view_xview[0] + 600, view_yview[0] + 32, "Level: " + string(global.level), 2, 2, 0);
+draw_text_transformed(view_xview[0] + 600, view_yview[0] + 32, "Level: " + string(global.level), 1, 1, 0);
 </string>
           </argument>
         </arguments>

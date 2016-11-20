@@ -51,8 +51,9 @@ global.points = 0;
             <kind>1</kind>
             <string>///Draw Score
 
+draw_set_font(fnt_HUD);
 draw_set_color(c_red);
-draw_text_transformed(view_xview[0] + 32, view_yview[0] + 32, "Score:" + string(global.points), 2, 2, 0);
+draw_text_transformed(view_xview[0] + 32, view_yview[0] + 32, "Score:" + string(global.points), 1, 1, 0);
 </string>
           </argument>
         </arguments>
