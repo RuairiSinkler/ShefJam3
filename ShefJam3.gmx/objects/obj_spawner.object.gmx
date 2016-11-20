@@ -64,11 +64,11 @@
         else if (global.wave == 6) {
             global.level += 1;
             global.wave = 1;
-            //room_goto(rm_island2);
+            room_goto(rm_island2);
         }
     }
     
-    /*else if (global.level == 2)  {
+    else if (global.level == 2)  {
         if (global.wave == 1) {
             for (i=0; i&lt;5; i++) {
                 instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_rabbit);
@@ -122,7 +122,7 @@
             global.level += 1;
             global.wave = 1;
         }
-    }*/
+    }
 }
 </string>
           </argument>
