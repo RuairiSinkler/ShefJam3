@@ -66,6 +66,62 @@
             global.wave = 1;
         }
     }
+    else if (global.level == 2)  {
+        if (global.wave == 1) {
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_rabbit);
+            }
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_snake);
+            }
+        }
+        else if (global.wave == 2) {
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_rabbit);
+            }
+            for (i=0; i&lt;10; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_snake);
+            }
+        }
+        else if (global.wave == 3) {
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_rabbit);
+            }
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_snake);
+            }
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_lizard);
+            }
+        }
+        else if (global.wave == 4) {
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_snake);
+            }
+            for (i=0; i&lt;10; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_lizard);
+            }
+        }
+        else if (global.wave == 5) {
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_rabbit);
+            }
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_snake);
+            }
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_lizard);
+            }
+            for (i=0; i&lt;1; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_seal);
+            }
+        }
+        else if (global.wave == 6) {
+            global.level += 1;
+            global.wave = 1;
+            room_goto(rm_island2);
+        }
+    }
 }
 </string>
           </argument>
