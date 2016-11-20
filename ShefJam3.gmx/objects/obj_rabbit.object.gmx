@@ -26,18 +26,18 @@
           <argument>
             <kind>1</kind>
             <string>while(distance_to_object(obj_darwin)&lt;300) {
-    x = random(room_width);
-    y = random(room_height);
+    x = random(room_width-128)+64;
+    y = random(room_height-128)+64;
 }
 
-while (place_meeting(x, y, obj_seatile)) {
-    x = random(room_width);
-    y = random(room_height);
+while (distance_to_object(obj_seatile)&lt;100) {
+    x = random(room_width-128)+64;
+    y = random(room_height-128)+64;
 }
 
-while (place_meeting(x, y, obj_solidobject)) {
-    x = random(room_width);
-    y = random(room_height);
+while (distance_to_object(obj_solidobject)&lt;100) {
+    x = random(room_width-128)+64;
+    y = random(room_height-128)+64;
 }
 
 inSea = false;
