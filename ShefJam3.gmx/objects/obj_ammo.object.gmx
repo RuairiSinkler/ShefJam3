@@ -51,9 +51,10 @@ global.ammo = 8;
             <kind>1</kind>
             <string>///Draw ammo
 
+draw_set_halign(fa_center);
 draw_set_font(fnt_HUD);
 draw_set_color(c_red);
-draw_text_transformed(view_xview[0] + 300, view_yview[0] + 32, "Ammo: " + string(global.ammo), 1, 1, 0);
+draw_text_transformed(view_xview[0] + view_wview[0]/2, view_yview[0] + 32, "Ammo: " + string(global.ammo), 1, 1, 0);
 
 var initx = view_xview[0] + 64;
 var inity = view_yview[0] + 128;

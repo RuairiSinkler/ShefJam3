@@ -26,7 +26,32 @@
           <argument>
             <kind>1</kind>
             <string>depth = -1000;
-global.level = 1;
+global.wave = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (!instance_exists(obj_enemy)) {
+    global.wave += 1;
+}
 </string>
           </argument>
         </arguments>
@@ -49,12 +74,12 @@ global.level = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Draw Level
+            <string>///Draw Wave
 
 draw_set_halign(fa_center);
 draw_set_font(fnt_HUD);
 draw_set_color(c_red);
-draw_text_transformed(view_xview[0] + view_wview[0]/2, view_yview[0] + (view_hview[0]-64), "Level: " + string(global.level), 2, 2, 0);
+draw_text_transformed(view_xview[0] + 4*view_wview[0]/5, view_yview[0] + 32, "Wave: " + string(global.wave), 1, 1, 0);
 </string>
           </argument>
         </arguments>

@@ -17,12 +17,18 @@
     <sprite>sprites\spr_palmtree</sprite>
     <sprite>sprites\spr_seatile</sprite>
     <sprite>sprites\spr_bulletcounter</sprite>
+    <sprite>sprites\spr_menu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_blue</background>
     <background>background\bg_island1</background>
+    <background>background\bg_startmenu</background>
+    <background>background\bg_howtoplay</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_HUD</font>
   </fonts>
@@ -33,11 +39,19 @@
     <object>objects\obj_snake</object>
     <object>objects\obj_score</object>
     <object>objects\obj_palmtree</object>
-    <object>objects\obj_level</object>
+    <object>objects\obj_wave</object>
     <object>objects\obj_ammo</object>
     <object>objects\obj_seatile</object>
+    <object>objects\obj_spawner</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_solidobject</object>
+    <object>objects\obj_level</object>
+    <object>objects\obj_menu</object>
+    <object>objects\obj_back</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_startmenu</room>
+    <room>rooms\rm_howtoplay</room>
     <room>rooms\rm_island1</room>
   </rooms>
   <help>

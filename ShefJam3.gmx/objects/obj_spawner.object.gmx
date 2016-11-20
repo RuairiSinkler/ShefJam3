@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,36 +25,44 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -1000;
-global.level = 1;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Draw Level
-
-draw_set_halign(fa_center);
-draw_set_font(fnt_HUD);
-draw_set_color(c_red);
-draw_text_transformed(view_xview[0] + view_wview[0]/2, view_yview[0] + (view_hview[0]-64), "Level: " + string(global.level), 2, 2, 0);
+            <string>if (!instance_exists(obj_enemy)) {
+    if (global.level == 1)  {
+        if (global.wave == 1) {
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width), random(room_height), obj_rabbit);
+            }
+        }
+        else if (global.wave == 2) {
+            for (i=0; i&lt;10; i++) {
+                instance_create(random(room_width), random(room_height), obj_rabbit);
+            }
+        }
+        else if (global.wave == 3) {
+            for (i=0; i&lt;10; i++) {
+                instance_create(random(room_width), random(room_height), obj_rabbit);
+            }
+            for (i=0; i&lt;3; i++) {
+                instance_create(random(room_width), random(room_height), obj_snake);
+            }
+        }
+        else if (global.wave == 4) {
+            for (i=0; i&lt;10; i++) {
+                instance_create(random(room_width), random(room_height), obj_rabbit);
+            }
+            for (i=0; i&lt;5; i++) {
+                instance_create(random(room_width), random(room_height), obj_snake);
+            }
+        }
+        else if (global.wave == 5) {
+            for (i=0; i&lt;10; i++) {
+                instance_create(random(room_width), random(room_height), obj_rabbit);
+            }
+            for (i=0; i&lt;10; i++) {
+                instance_create(random(room_width), random(room_height), obj_snake);
+            }
+        }
+    }
+}
 </string>
           </argument>
         </arguments>
