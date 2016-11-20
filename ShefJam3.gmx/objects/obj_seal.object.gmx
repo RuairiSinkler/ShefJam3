@@ -25,14 +25,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>while(distance_to_object(obj_darwin)&lt;700) {
-    x = random(room_width-128)+64;
-    y = random(room_height-128)+64;
-}
-
-while (distance_to_object(obj_solidobject)&lt;100) {
-    x = random(room_width-128)+64;
-    y = random(room_height-128)+64;
+            <string>var spawned = false;
+while (spawned == false) {
+    spawned = true;
+    while(distance_to_object(obj_darwin)&lt;300) {
+        x = random(room_width-128)+64;
+        y = random(room_height-128)+64;
+        spawned = false;
+    }
+    
+    while (distance_to_object(obj_solidobject)&lt;100) {
+        x = random(room_width-128)+64;
+        y = random(room_height-128)+64;
+        spawned = false;
+    }
 }
 
 inSea = false;
