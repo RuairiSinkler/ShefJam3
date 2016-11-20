@@ -1141,6 +1141,7 @@
     <instance objName="obj_seatile" x="352" y="2048" name="inst_5D5C2329" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seatile" x="320" y="2048" name="inst_C4445BF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seatile" x="288" y="2048" name="inst_BFD2996B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_initialise" x="544" y="320" name="inst_83DB20C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

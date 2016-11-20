@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>depth = -1000;
-global.level = 1;
 </string>
           </argument>
         </arguments>

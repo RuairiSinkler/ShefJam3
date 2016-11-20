@@ -119,6 +119,11 @@
             }
         }
         else if (global.wave == 6) {
+            for (i=0; i&lt;10; i++) {
+                instance_create(random(room_width-128)+64, random(room_height-128)+64, obj_tortoise);
+            }
+        }
+        else if (global.wave == 7) {
             global.level += 1;
             global.wave = 1;
         }
